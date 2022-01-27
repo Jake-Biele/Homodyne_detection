@@ -1,0 +1,28 @@
+Configuration, MLL VOA -> 90:10 -> 10:PM -> 90: 50:50: HD -> ACDC: AC:
+                    RS SAFPL1007 DC -> Tek
+Run Specific Notes, test
+ESA:, RS FPC1007
+Extra Electronics, Bias Tee + Low Pass Filter
+Number of traces, 5
+Name, USB0::0x1313::0x8078::P0028719::INSTR
+Sensor, S148C
+Serial number, 15090732
+Calibration date, 07-Sep-2015
+VBW [Hz]:, 100.0
+RBW [Hz]:, 100000.0
+Preamp:, 100.0
+Traces Averages:, 5
+CH1 probe (V), 1.0
+CH1 current probe (A), 10.0
+CH1 volts per div (V), 0.02
+CH1 y position (V), 0.0
+CH1 coupling, DC
+CH1 bandwidth, OFF
+CH1 invert, OFF
+CH1 unit, V
+number datapoints, 2500
+time per div (ms), 10.0
+position (ms), 0.0
+Timestamp, 2021-09-24 12-09-31
+
+
