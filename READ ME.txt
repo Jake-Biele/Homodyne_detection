@@ -1,0 +1,70 @@
+
+All datasets are provided in .csv filetype with an inventory given below.
+Code is provided for Python 3 form to reproduce the plots in the paper and requires the following list of depedencies:
+
+	Python 3
+	Pandas
+	Scipy
+	Numpy
+	Seaborn
+
+#################			#################
+#################    File Inventory	#################
+#################			#################
+
+Data\
+	-> AC Data\
+		-> Gain spectrum data\
+			-> metadata.csv - meta data for the gain spectrum investigation
+			-> powerdara.csv - input power as a function of output DC volatge
+			-> spectrums.csv - spectrum for input power
+		-> Vac shot noise data\
+			-> metadata.csv - meta data for the shot noise investgiation
+			-> powerdara.csv - input power as a function of output DC volatge
+			-> spectrums.csv - spectrum for input power
+	-> CMRR Data\
+		-> CMRR.csv - addition and subtraction spectra for a fixed power
+	-> DC Data.csv - PD+ and PD- DC voltage as a function of input power for efficiency investigation
+
+01 - DC figure.py - compiles figure 1(b)
+02 - AC figures.py - compiles figures 2(a-b)
+03 - CMRR figure.py - extracts CMRR
+fig.py - for plotting
+
+#################			#################
+#################	Figures 	#################
+#################			#################
+
+################ Fig 1B ################
+
+File 'Data\DC data.csv' contains the data for figures 1B in the main text.
+'01 - DC figure.py' is a python script which produces the estimated efficiency of each photodiode.
+Further information is given in comments in the notebook.
+
+################# Fig 1C #################
+
+Folder 'Data\AC data\Gain sprectrum data\' contains the data for figures 1C in the main text.
+'02 - AC figure.py' is a python script which produces the normalised gain, and fits a Butterworht function to extract detector bandwidth.
+Further information is given in comments in the notebook and in the file 'metadata.csv.
+
+################# Fig 2A #################
+
+Folder 'Data\AC data\Vac shot noise\' contains the data for figures 2A in the main text.
+'02 - AC figure.py' is a python script which produces the PSD for several powers.
+Further information is given in comments in the notebook and in the file 'metadata.csv.
+
+################# Fig 2B #################
+
+Folder 'Data\AC data\Vac shot noise\' contains the data for figures 2B in the main text.
+'02 - AC figure.py' is a python script which produces the linear log variance plot with increasing LO power.
+Further information is given in comments in the notebook and in the file 'metadata.csv.
+
+
+
+
+
+
+
+
+
+
