@@ -7,10 +7,20 @@ Code is provided for Python 3 form to reproduce the plots in the paper and requi
 	Scipy
 	Numpy
 	Seaborn
+	
+The full Altium project files are included in the folder 'Altium Board Files'. This includes the boad, schematic and relevant custom libraries required to complie the board
+Gerber files.
 
 #################			#################
 #################    File Inventory	#################
 #################			#################
+
+Altium Board Files\
+	-> 2um_Homodyne.PcbDoc
+	-> 2um_Homodyne.PrjPCB
+	-> 2um_Homodyne.SchDoc
+	-> homod_gen.PcbLib
+	-> homod_gen.SchLib
 
 Data\
 	-> AC Data\
@@ -58,13 +68,4 @@ Further information is given in comments in the notebook and in the file 'metada
 Folder 'Data\AC data\Vac shot noise\' contains the data for figures 2B in the main text.
 '02 - AC figure.py' is a python script which produces the linear log variance plot with increasing LO power.
 Further information is given in comments in the notebook and in the file 'metadata.csv.
-
-
-
-
-
-
-
-
-
 
